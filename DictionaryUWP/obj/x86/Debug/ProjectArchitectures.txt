@@ -1,0 +1,1 @@
+C:\Users\David\Documents\nao\C-Sharp-Practice\C-SharpPractice\DictionaryUWP\DictionaryUWP\DictionaryUWP.csproj;x86

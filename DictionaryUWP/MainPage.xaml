@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="DictionaryUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DictionaryUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock></TextBlock>
+        <TextBox x:Name="tbGermanWord" HorizontalAlignment="Left" Margin="364,331,0,0" Text="Word in DE" TextWrapping="Wrap" VerticalAlignment="Top" Height="237" Width="625"/>
+        <Button x:Name="btnWriteWord" Content="Button" Margin="545,611,0,0" VerticalAlignment="Top" Height="88" Width="264" Click="btnWriteWord_Click"/>
+    </Grid>
+</Page>
